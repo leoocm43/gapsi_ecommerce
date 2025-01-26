@@ -7,7 +7,7 @@ This is a React web app that allows users to search for products.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-shop.git
+   git clone https://github.com/leoocm43/gapsi_ecommerce.git
    
 2. Navigate to the project folder:
    ```bash
