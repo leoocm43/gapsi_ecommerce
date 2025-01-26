@@ -11,7 +11,7 @@ This is a React web app that allows users to search for products.
    
 2. Navigate to the project folder:
    ```bash
-   cd react-shop
+   cd gapsi-ecommerce
 
 3. Install dependencies:
    ```bash
