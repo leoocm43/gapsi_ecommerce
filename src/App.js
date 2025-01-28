@@ -23,7 +23,7 @@ const App = () => {
           setLoading(false);
         });
     }
-  }, [query]); // Trigger this effect when the query changes
+  }, [query,loadProducts,setLoading]); // Trigger this effect when the query changes
 
   const handleScroll = (e) => {
     const bottom = e.target.scrollHeight === e.target.scrollTop + e.target.clientHeight;
