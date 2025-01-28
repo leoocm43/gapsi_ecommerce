@@ -19,8 +19,6 @@ const fetchProducts = async (keyword, page = 1) => {
         page, // Pagination parameter (default is 1)
       },
     });
-    console.log(response.data)
-    console.log("Dataaaaaa: ",response.data.item.props.pageProps.initialData.searchResult.itemStacks[0].items)
     return response.data.item.props.pageProps.initialData.searchResult.itemStacks[0].items; // Return the data from the API response
     
   } catch (error) {
